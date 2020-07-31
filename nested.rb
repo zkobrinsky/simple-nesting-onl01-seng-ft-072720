@@ -1,4 +1,6 @@
 
+require "pry"
+
 def hopper
 	programmer_hash =
  		{
@@ -59,7 +61,6 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-     binding.pry
      return programmer_hash[:dennis_ritchie][:languages].to_s
 end
 
