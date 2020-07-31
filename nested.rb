@@ -61,7 +61,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-     binding.pry
+    #  binding.pry
      mystring = programmer_hash[:dennis_ritchie][:languages].join
 end
 
