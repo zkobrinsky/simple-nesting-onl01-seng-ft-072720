@@ -16,7 +16,7 @@ def hopper
         }
      }
 
-     return :grace_hopper
+     return [:grace_hopper]
 
 
 end
